@@ -19,18 +19,15 @@ Example of usage:
       
   - python3 dicocitation_parser.py essai -f essai_context.txt -w5
   
-      Store the context words of the word 'essai',
+      Store the context words of 'essai',
       
       make (or append) it to the file essai_context.txt
       
-      wait 5s between each request to the website 'www.dicocitations.com'
+      wait 5s between each request to 'www.dicocitations.com'
       
 note1: If a filename is missing, print the context words on output
 
 note2: Words are sorted by occurences
-
-note3: I wrote this code quickly, with my feet. I'm sure you will forgive the syntax
-
 
 ex: output for the word 'bavure':
 
